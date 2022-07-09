@@ -108,7 +108,7 @@ def get_message():
 @app.route('/')
 def main():
     bot.remove_webhook()
-    bot.set_webhook(url='https://telega2bot.herokuapp.com/' + TOKEN)
+    bot.set_webhook(url='https://stretching-bot.herokuapp.com/' + TOKEN)
     return 'Python Telegram Bot', 200
 
 
